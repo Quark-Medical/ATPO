@@ -1,0 +1,2 @@
+- name: user_assistant_interaction
+  _target_: recipe.atpo.user_assistant_agent_loop.UserAssistantAgentLoop
