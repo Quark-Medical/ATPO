@@ -13,10 +13,9 @@ dataset
 ├── mcqa_test_dataset.jsonl
 ├── medqa_test_dataset.jsonl
 ├── rl_train_dataset.jsonl
-├── rl_val_200.jsonl
 └── sft_train_data.jsonl
 ```
-Among them, `sft_train_data.jsonl` is used for SFT cold start, `rl_train_dataset.jsonl` is used for RL training, while `aie_test_dataset.jsonl`, `mcqa_test_dataset.jsonl`, and `medqa_test_dataset.jsonl` are used for model evaluation, with `medqa_test_dataset.jsonl` also serving for validation during the training process.
+Among them, `sft_train_data.jsonl` is used for SFT cold start, `rl_train_dataset.jsonl` is used for RL training, while `aie_test_dataset.jsonl`, `mcqa_test_dataset.jsonl`, and `medqa_test_dataset.jsonl` are used for model evaluation.
 
 ## Algorithm Implementation
 
