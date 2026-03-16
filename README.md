@@ -46,4 +46,17 @@ bash recipe/atpo/run.sh
 ```
 > ❗ Note that here you should modify the `ACTOR_LOAD` in the script to the path of the trained SFT model, and other related parameters can be adjusted according to the situation. In addition, due to security issues, we have anonymized the URL in `/recipe/atpo/api_request_async.py`. Please deploy the service yourself and replace it with the corresponding URL.
 
+## Citation
+
+If you use ATPO or find our work helpful, please cite our paper:
+
+```
+@article{cao2026atpo,
+  title={ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue},
+  author={Cao, R. and Bai, S. and Yao, F. and others},
+  journal={arXiv preprint arXiv:2603.02216},
+  year={2026}
+}
+```
+
 
